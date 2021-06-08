@@ -4,14 +4,9 @@ This is a display of sample websites that I made using HTML and CSS.
 
 <h2>Projects</h2>
 
-<li>Portfolio site</li>
-<li>Space Station Site</li>
-<li>Movie Theater Site</li>
+[Space Station Site](https://github.com/TomSpencer-Dev/HTML_and_CSS_Projects/blob/main/index.html)<br>
+[Movie Theater Site](https://github.com/TomSpencer-Dev/HTML_and_CSS_Projects/blob/main/academy.cinemas.html)
 <br>
-
-<h3>Portfolio Site</h3>
-
-This page is a home page with a contact form, and links to my portfolio on GitHub. It was styled using CSS and contains a navbar, images and text with links and hover effects. It also has a muted looping video.
 
 <h3>Space Station Site</h3>
 
