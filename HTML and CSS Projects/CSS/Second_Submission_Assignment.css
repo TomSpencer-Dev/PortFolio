@@ -1,0 +1,13 @@
+body {
+    color: darkblue;
+    background-color: lightblue;
+}
+
+img {
+    border: 2px dotted red;
+}
+
+h3 {
+    text-align: center;
+}
+
