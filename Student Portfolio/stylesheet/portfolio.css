@@ -18,11 +18,18 @@ h1:hover {
     filter: grayscale(5%); /* Adds a slightly gray filter to the h1 headings when hovered over */
     transform: scale(1.1); /*When the h1 elements are havered over the increase in size by 1.1 */
     transition: transform 1s; /*This causes the transformation to last 1 second */
+    color: #32527b;
 }
+
+
 
 /* Styling for portfolio title text */
 .white-text {
     color: #fff; /* is used to change the color of the portfolio title text */
+}
+
+.white-text:hover {
+    color: #fff;
 }
 
 /* Paragraph elements */
@@ -152,7 +159,7 @@ footer {
 
 /* Navbar home button */
 .Navbar a.active {/* This targets the a element on the navbar with the "active" class */
-    background-color: darkgray;
+    background-color: #32527b;
 }
 
 /***** END OF NAVBAR STYLING *****/
@@ -160,7 +167,7 @@ footer {
 /***** VIDEO STYLING *****/
 
 /* Formatting for background video */
-#Typing_Video {
+#Futuristic_Video {
     position: fixed; /* This fixes the video to the page */
     right: 0; /* This ensures there is no space between the edge of the video and the edge of the page */
     bottom: 0; /* This ensures no space between the bottom of the video and the bottom of the page */
@@ -178,7 +185,7 @@ footer {
 /*Texts over the video */
 .Video_Text {
     background: rgba(0,0,0,0.5); /*This provides a semi-transparent background for the text to sit over */
-    color: white; /* Makes the font color white */
+    color: #fff; /* Makes the font color white */
     width: 100%; /* Ensures the video-text container fills the width of the video */
     padding: 20px; /* This adds padding around the video-text container so that the background goes slightly beyond the text */
     position: relative; /* This sets the text relative to its normal positioning, allowing us to use the animation below */
@@ -276,7 +283,7 @@ input[type=submit] {
 /* Hover effect for submit button */
 input[type=submit]:hover {
     background-color: white; /* Turns the background of the submit button white when the use hovers over it */
-    color: black; /* Turns the font black when hovered over */
+    color: #32527b; /* Turns the font black when hovered over */
     transform: scale(1.5); /* makes the button increase 1.5 times in size */
     transition: transform 1.5s; /* Makes the transform effect last 1.5 seconds */
 }
@@ -290,3 +297,11 @@ form {
 }
 
 /***** END OF CONTACT FORM STYLING *****/
+
+h1.mail:after {
+    content: ' \2709';
+}
+
+footer a{
+    text-decoration: none;
+   }
