@@ -133,14 +133,13 @@ body.fade-out {
 /*Texts over the video */
 .Video_Text {
     background: rgba(0,0,0,0.5); /*This provides a semi-transparent background for the text to sit over */
-    color: #fff; /* Makes the font color white */
+    color: white; /* Makes the font color white */
     width: 100%; /* Ensures the video-text container fills the width of the video */
-    padding-top: .1vh; /* This adds padding around the text so that the background goes slightly beyond the text */
-    padding-bottom: 1vh;
-    margin-top: 23%;
-    position: relative; /* This sets the text relative to its normal positioning, allowing us to use the animation below */
-    -webkit-animation: moveNav 4s;
-    animation: movevideoText 4s;
+    height: 100vh;
+    padding-top: 2vh;/* This adds padding around the text so that the background goes slightly beyond the text */
+    position: relative;
+    -webkit-animation: moveNav 5.75s;
+    animation: movevideoText 5.75s;
 }
 
 /***** END OF VIDEO STYLING *****/
