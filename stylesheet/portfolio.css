@@ -116,10 +116,10 @@ body.fade-out {
     position: fixed; /* This fixes the video to the page */
     right: 0; /* This ensures there is no space between the edge of the video and the edge of the page */
     bottom: 0; /* This ensures no space between the bottom of the video and the bottom of the page */
-    min-width: 100%; /* This ensures the video is displayed across the full width of the page */
-    z-index: -1; /* This places the video behind the other elements on the page */
     min-height: 100%; /* This ensures the video is displayed across the full height of the page */
     top: 0;
+    z-index: -1; /* This places the video behind the other elements on the page */
+    min-width: 100%; /* This ensures the video is displayed across the full width of the page */
     animation: zoominoutsinglefeatured 5s;
 }
 
@@ -376,7 +376,7 @@ h1:hover {
 /* Image element hover effects */
 .images2:hover {
     transition: transform 1s; /*Transition lasts 1 second */
-    transform: scale(1.1); /* Image is increased slightly when hovered over */
+    transform: scale(1.05); /* Image is increased slightly when hovered over */
 }
 
 img:hover {
